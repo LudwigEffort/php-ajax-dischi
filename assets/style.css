@@ -1,12 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    height: 4rem;
-    background-color: salmon;
+nav {
+    background-color: #2E3A46;
+    padding: 0 0;
 }
 
 footer {

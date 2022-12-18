@@ -1,15 +1,20 @@
-<main class="container text-center p-4"><?php
-    include_once __DIR__ . '/../db/data.php';
+<main ><?php
+    include_once __DIR__ . '/../db/data.php'; ?>
 
-    //echo $arrDiscs[0]['title'];
-
-    foreach ($arrDiscs as $disc) { ?>
+    <div class="container text-center p-4">
         <div class="row row-cols-4 g-5">
-            <div>
-                <h2><?= $disc['title'] ?></h2>
-                <img src="<?= $disc['poster'] ?>" alt="">
-                <p><?= $disc['author'] ?></p>
-            </div> 
-        </div> <?
-    } ?>
+            <? foreach ($arrDiscs as $disc) { ?>
+                <div class="col">
+                    <div class="card card-style">
+                        <img src="<?= $disc['poster'] ?>" alt="Cover" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="title"><?= $disc['title'] ?></h4>
+                            <p class="artist"><?= $disc['author'] ?></p>
+                            <p class="year"><?= $disc['year'] ?></p>
+                        </div>
+                    </div>
+                </div> <?
+            } ?>
+        </div> 
+    </div> 
 </main>

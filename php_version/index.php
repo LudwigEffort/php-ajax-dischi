@@ -11,9 +11,7 @@
 <body><?php
     include __DIR__ . '/includes/header.php';
 
-    include_once __DIR__ . '/includes/main-home.php';
-
-    include __DIR__ . '/includes/footer.php' ?>;
+    include_once __DIR__ . '/includes/main-home.php'; ?>
 
 </body>
 </html>

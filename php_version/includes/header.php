@@ -8,11 +8,11 @@
                 </a>
             </div>
             <div class="col-3">
-            <select class="form-select" aria-label="Default select example">
-                <option value="none">
-                    Chose genre
-                </option>
-            </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="none">
+                        Chose genre
+                    </option>
+                </select>
             </div>
         </div>
         </div>

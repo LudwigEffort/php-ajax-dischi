@@ -1,5 +1,5 @@
 <main ><?php
-    include_once __DIR__ . '/../db/data.php'; ?>
+    include_once __DIR__ . '/../../db/data.php'; ?>
 
     <div class="container text-center p-4">
         <div class="row row-cols-4 g-5">
